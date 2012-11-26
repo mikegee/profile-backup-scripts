@@ -1,0 +1,63 @@
+#!/bin/bash
+
+set -u
+
+options="--itemize-changes --archive --omit-dir-times --delete --delete-excluded --safe-links"
+
+profile="/Users/gee"
+
+exclude="--exclude-from=$profile/bin/backup-profile/exclusions/to-HDD"
+
+storage="/Volumes/HDD/Backup/Profile"
+
+versions=60
+
+if [ ! -d "$storage" ]; then
+  echo "ERROR: Destination directory doesn't exist" 1>&2
+  exit 2
+fi
+
+cd "$storage"
+
+temp_dest_dir="running-copy"
+
+# clean up failed backup
+[ -d $temp_dest_dir ] && rm -rf $temp_dest_dir
+
+if [ ! -d 1 ]; then
+  echo "This is a first run, making initial copy!"
+  rsync $options $exclude $profile/ 1
+  chmod 500 1
+  exit 0
+fi
+
+# copy to temp dir
+rsync $options $exclude --link-dest=$storage/1 $profile/ $temp_dest_dir
+RETVAL=$?
+
+if [ $RETVAL -ne 0 -a $RETVAL -ne 23 -a $RETVAL -ne 24 ]; then
+  echo "ERROR: Copy failed (non-zero return code from rsync)"
+  exit 2
+fi
+
+# Copy was ok, rotate backups
+
+chmod 700 *
+
+NEXTD=$versions
+COUNT=`expr $versions - 1`
+
+[ -d $NEXTD ] && rm -rf $NEXTD
+
+while [ $COUNT -ge 1 ]; do
+  [ -d $COUNT ] && mv $COUNT $NEXTD
+
+  NEXTD=$COUNT
+  COUNT=`expr $COUNT - 1`
+done
+
+mv $temp_dest_dir 1
+
+chmod 500 *
+
+curl https://nosnch.in/89820b4cee

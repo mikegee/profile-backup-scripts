@@ -1,0 +1,39 @@
+# specific inclusions before massive exclusions
++ **/.htaccess
++ Library/Keychains
+
+
+# Exclusions
+
+- **/.*
+- **/~*.tmp
+- **/$RECYCLE.BIN
+- **/RECYCLER
+- **/desktop.ini
+- **/Icon
+- **/_vti_cnf
+
+- src
+
+- Library/Preferences/nsmb.conf
+
+- Documents/AdobeStockPhotos
+- Documents/Microsoft User Data
+- Documents/Updater
+
+- Library/Application Support/uTorrent
+- Library/Caches
+- Library/Preferences/Macromedia
+- Library/Safari/LocalStorage
+
+- Public
+
+- Projects/dotjs
+- Projects/rails
+- Projects/rails_best_practices
+- Projects/rspec-mocks
+
+- Projects/*/coverage
+- Projects/*/log/*.log
+- Projects/*/tmp
+- Projects/*/vendor/cache

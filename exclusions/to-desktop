@@ -1,0 +1,29 @@
+- **/.*
+- **/~*.tmp
+
+- Applications
+- deletable after some time passes
+- MacUpdate-Dec-2010-Bundle.dmg
+- Virtual Machines
+
++ Backup/Profile/1
+- Backup/Profile/*
+- Backup/Profile/1/Library/Application Support/MobileSync/Backup
+- Backup/Profile/1/Library/iTunes/*Software Updates
+
+- Backup/WinPE_USB_Flash_Drive.img
+- Backup/Xcode
+
+- Downloads
+
+- Games
+
+- iTunes/Mobile Applications
+
+- Music/John Hodgman
+- Music/Podcasts
+- Music/Movies
+
+- Pictures/iPhoto Library/iPod Photo Cache
+
+- Steam

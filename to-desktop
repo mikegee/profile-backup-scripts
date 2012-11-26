@@ -1,0 +1,14 @@
+#!/bin/bash
+
+set -u
+set -e
+set -x
+
+source="/Volumes/HDD"
+
+options="-e ssh --itemize-changes --archive --omit-dir-times --delete --delete-excluded --safe-links"
+# other options: --dry-run
+
+exclude="--exclude-from=$HOME/bin/backup-profile/exclusions/to-desktop"
+
+rsync $options $exclude $source/ gee@dt:~/Backup/Laptop/
