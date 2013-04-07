@@ -1,1 +1,0 @@
-sudo rsync / /Volumes/TimeCop/OSU\ MBP/SSD/ --itemize-changes --archive --safe-links --exclude-from=SSD-excludes
