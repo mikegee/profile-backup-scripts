@@ -1,0 +1,3 @@
+options="--itemize-changes --archive --safe-links"
+sudo rsync /Volumes/HDD /Volumes/TimeCop/OSU\ MBP/HDD/ $options --exclude-from=HDD-excludes
+sudo rsync /Volumes/HDD/Backup/Profile/1 /Volumes/TimeCop/OSU\ MBP/HDD/Backup/Profile/ $options
