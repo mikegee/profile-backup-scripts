@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -u
+set -e
+set -x
+
+
+options="--itemize-changes --archive --omit-dir-times --delete --delete-excluded --safe-links"
+# other options: --dry-run
+
+exclude="--exclude-from=$0/../exclusions/to-TimeCop"
+
+rsync $options $exclude $HOME/ /Volumes/TimeCop/CMM\ MBP/

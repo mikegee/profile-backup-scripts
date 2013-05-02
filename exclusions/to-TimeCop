@@ -1,0 +1,33 @@
+# specific inclusions before massive exclusions
++ Library/Keychains
+
+
+# Exclusions
+
+- **/.*
+- **/~*.tmp
+- **/$RECYCLE.BIN
+- **/RECYCLER
+- **/desktop.ini
+- **/Icon
+- **/_vti_cnf
+
+- Library/Preferences/nsmb.conf
+
+- Documents/AdobeStockPhotos
+- Documents/Microsoft User Data
+- Documents/Office 2011 ISO
+- Documents/Parallels
+- Documents/Updater
+
+- Library/Application Support/Google/Chrome/Default/Local Storage
+- Library/Application Support/Google/Chrome/Default/Pepper Data/Shockwave Flash/CacheWritableAdobeRoot
+- Library/Application Support/Google/Chrome/Default/Pepper Data/Shockwave Flash/WritableRoot
+- Library/Application Support/uTorrent
+- Library/Caches
+- Library/Preferences/Macromedia
+- Library/Safari/LocalStorage
+
+- Public
+
+- Projects/cmm
