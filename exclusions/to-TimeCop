@@ -1,5 +1,5 @@
 # specific inclusions before massive exclusions
-+ Library/Keychains
++ /Library/Keychains
 
 
 # Exclusions
@@ -12,22 +12,35 @@
 - **/Icon
 - **/_vti_cnf
 
-- Library/Preferences/nsmb.conf
+- /Library/Preferences/nsmb.conf
 
-- Documents/AdobeStockPhotos
-- Documents/Microsoft User Data
-- Documents/Office 2011 ISO
-- Documents/Parallels
-- Documents/Updater
+- /Documents/AdobeStockPhotos
+- /Documents/Microsoft User Data
+- /Documents/Office 2011 ISO
+- /Documents/Parallels
+- /Documents/Updater
 
-- Library/Application Support/Google/Chrome/Default/Local Storage
-- Library/Application Support/Google/Chrome/Default/Pepper Data/Shockwave Flash/CacheWritableAdobeRoot
-- Library/Application Support/Google/Chrome/Default/Pepper Data/Shockwave Flash/WritableRoot
-- Library/Application Support/uTorrent
-- Library/Caches
-- Library/Preferences/Macromedia
-- Library/Safari/LocalStorage
+- /Library/Application Support/Google/Chrome/Default/Local Storage
+- /Library/Application Support/Google/Chrome/Default/Pepper Data/Shockwave Flash/CacheWritableAdobeRoot
+- /Library/Application Support/Google/Chrome/Default/Pepper Data/Shockwave Flash/WritableRoot
+- /Library/Application Support/Steam
+- /Library/Application Support/uTorrent
+- /Library/Caches
+- /Library/Parallels/Downloads
+- /Library/Preferences/Macromedia
+- /Library/Safari/LocalStorage
+- /Library/iTunes/iPhone Software Updates
+- /Library/iTunes/iPad Software Updates
 
-- Public
+- /Pictures/iPhoto Library/iPod Photo Cache
 
-- Projects/cmm
+- /Public
+
+- /Projects/cmm
+- /Projects/rails
+- /Projects/ruby-install
+- /Projects/tracks
+
+- /src
+
+- /VirtualBox VMs
