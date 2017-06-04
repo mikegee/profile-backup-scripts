@@ -1,7 +1,6 @@
 # specific inclusions before massive exclusions
 + /Library/Keychains
 
-
 # Exclusions
 
 - **/.*
@@ -12,6 +11,8 @@
 - **/Icon
 - **/_vti_cnf
 
+- /profile-backup
+
 - /Library/Preferences/nsmb.conf
 
 - /Documents/AdobeStockPhotos
@@ -20,12 +21,20 @@
 - /Documents/Parallels
 - /Documents/Updater
 
+- /Library/WebKit/LocalStorage
+
+- /Library/Application Support/Dash
+- /Library/Application Support/Garmin
+- /Library/Application Support/Google/Chrome/Default/IndexedDB
 - /Library/Application Support/Google/Chrome/Default/Local Storage
 - /Library/Application Support/Google/Chrome/Default/Pepper Data/Shockwave Flash/CacheWritableAdobeRoot
 - /Library/Application Support/Google/Chrome/Default/Pepper Data/Shockwave Flash/WritableRoot
+- /Library/Application Support/MobileSync/Backup
 - /Library/Application Support/Steam
 - /Library/Application Support/uTorrent
 - /Library/Caches
+- /Library/Containers/*/Data/Library/Caches
+- /Library/Containers/com.docker.docker/Data
 - /Library/Parallels/Downloads
 - /Library/Preferences/Macromedia
 - /Library/Safari/LocalStorage
@@ -40,6 +49,7 @@
 - /Projects/rails
 - /Projects/ruby-install
 - /Projects/tracks
+- /Projects/*/node_modules
 
 - /src
 
