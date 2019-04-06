@@ -15,31 +15,34 @@
 
 - /Library/Preferences/nsmb.conf
 
-- /Documents/AdobeStockPhotos
-- /Documents/Microsoft User Data
-- /Documents/Office 2011 ISO
-- /Documents/Parallels
-- /Documents/Updater
-
-- /Library/WebKit/LocalStorage
-
 - /Library/Application Support/Dash
+- /Library/Application Support/Dropbox/Dropbox.app
 - /Library/Application Support/Garmin
+- /Library/Application Support/Google/Chrome/Default/File System
 - /Library/Application Support/Google/Chrome/Default/IndexedDB
 - /Library/Application Support/Google/Chrome/Default/Local Storage
 - /Library/Application Support/Google/Chrome/Default/Pepper Data/Shockwave Flash/CacheWritableAdobeRoot
 - /Library/Application Support/Google/Chrome/Default/Pepper Data/Shockwave Flash/WritableRoot
+- /Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage
 - /Library/Application Support/MobileSync/Backup
+- /Library/Application Support/Slack/Cache
 - /Library/Application Support/Steam
+- /Library/Application Support/Things Sandbox Helper/ThingsMacSandboxHelper.app
+- /Library/Application Support/WebEx Folder
 - /Library/Application Support/uTorrent
 - /Library/Caches
 - /Library/Containers/*/Data/Library/Caches
 - /Library/Containers/com.docker.docker/Data
+- /Library/Developer
+- /Library/Mail/**/Deleted Items.mbox
+- /Library/Mail/**/Deleted Messages.mbox
+- /Library/Mail/**/Trash.mbox
 - /Library/Parallels/Downloads
 - /Library/Preferences/Macromedia
 - /Library/Safari/LocalStorage
-- /Library/iTunes/iPhone Software Updates
+- /Library/WebKit/LocalStorage
 - /Library/iTunes/iPad Software Updates
+- /Library/iTunes/iPhone Software Updates
 
 - /Pictures/iPhoto Library/iPod Photo Cache
 
