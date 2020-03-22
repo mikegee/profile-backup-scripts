@@ -10,13 +10,16 @@
 - **/desktop.ini
 - **/Icon
 - **/_vti_cnf
+- **/tmp/cache
 
 - /profile-backup
 
 - /Library/Preferences/nsmb.conf
 
+- /Library/Address Book Plug-Ins
 - /Library/Application Support/Dash
 - /Library/Application Support/Dropbox/Dropbox.app
+- /Library/Application Support/Firefox/Profiles/**/cache/morgue
 - /Library/Application Support/Garmin
 - /Library/Application Support/Google/Chrome/Default/File System
 - /Library/Application Support/Google/Chrome/Default/IndexedDB
@@ -25,7 +28,9 @@
 - /Library/Application Support/Google/Chrome/Default/Pepper Data/Shockwave Flash/WritableRoot
 - /Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage
 - /Library/Application Support/MobileSync/Backup
+- /Library/Application Support/PaloAltoNetworks
 - /Library/Application Support/Slack/Cache
+- /Library/Application Support/Slack/Service Worker/CacheStorage
 - /Library/Application Support/Steam
 - /Library/Application Support/Things Sandbox Helper/ThingsMacSandboxHelper.app
 - /Library/Application Support/WebEx Folder
@@ -36,6 +41,7 @@
 - /Library/Developer
 - /Library/Mail/**/Deleted Items.mbox
 - /Library/Mail/**/Deleted Messages.mbox
+- /Library/Mail/**/Spam.mbox
 - /Library/Mail/**/Trash.mbox
 - /Library/Parallels/Downloads
 - /Library/Preferences/Macromedia
