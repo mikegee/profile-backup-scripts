@@ -3,16 +3,28 @@
 
 # Exclusions
 
-- **/.*
+- **/.DS_Store
 - **/~*.tmp
-- **/$RECYCLE.BIN
-- **/RECYCLER
-- **/desktop.ini
 - **/Icon
+- **/Icon\#015
 - **/_vti_cnf
 - **/tmp/cache
+- **/.localized
 
-- /profile-backup
+- /.Trash
+- /.azure
+- /.bash_sessions
+- /.docker
+- /.fzf
+- /.gem
+- /.git_template
+- /.gnupg
+- /.pgadmin
+- /.solargraph
+- /.ssh/id_rsa
+- /.vim
+- /.vscode
+- /.zsh
 
 - /Library/Preferences/nsmb.conf
 
@@ -20,6 +32,7 @@
 - /Library/Application Support/Dash
 - /Library/Application Support/Dropbox/Dropbox.app
 - /Library/Application Support/Firefox/Profiles/**/cache/morgue
+- /Library/Application Support/Firefox/Profiles/**/storage/default
 - /Library/Application Support/Garmin
 - /Library/Application Support/Google/Chrome/Default/File System
 - /Library/Application Support/Google/Chrome/Default/IndexedDB
@@ -37,6 +50,7 @@
 - /Library/Application Support/uTorrent
 - /Library/Caches
 - /Library/Containers/*/Data/Library/Caches
+- /Library/Containers/com.apple.ScreenSaver.Engine.legacyScreenSaver
 - /Library/Containers/com.docker.docker/Data
 - /Library/Developer
 - /Library/Mail/**/Deleted Items.mbox
@@ -46,6 +60,7 @@
 - /Library/Parallels/Downloads
 - /Library/Preferences/Macromedia
 - /Library/Safari/LocalStorage
+- /Library/VoiceTrigger
 - /Library/WebKit/LocalStorage
 - /Library/iTunes/iPad Software Updates
 - /Library/iTunes/iPhone Software Updates

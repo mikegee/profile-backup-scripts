@@ -3,11 +3,11 @@
 set -u
 set -e
 set -x
+# shopt -s dotglob
 
-
-options="--itemize-changes --archive --omit-dir-times --delete --delete-excluded --safe-links"
+options="--archive --protect-args --force-change --acls --xattrs --one-file-system --itemize-changes --crtimes --hard-links --omit-dir-times --delete --delete-excluded --safe-links"
 # other options: --dry-run
 
 exclude="--exclude-from=exclusions/to-TimeCop"
 
-rsync $options $exclude $HOME/ /Volumes/TimeCop/CMM\ MBP/
+rsync $options $exclude $HOME/ /Volumes/TimeCop/CMM\ MBP
